@@ -30,7 +30,7 @@ input{
 }
 
 #grass{
-    background-image: url(/img/grass.png);
+    background-image: url(../img/grass.png);
     background-repeat: no-repeat;
     position: absolute;
     top: 929px;
@@ -39,9 +39,9 @@ input{
 }
 
 .clock{
-    background-image: url(/img/clockroof.png);
+    background-image: url(../img/clockroof.png);
     position: relative;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: 250px;
     top: 163px;
     left: 175px;
@@ -59,7 +59,7 @@ input{
 }
 
 #weather{
-    background-image: url(/img/weather.png);
+    background-image: url(../img/weather.png);
     background-repeat: no-repeat ;
     background-size: 550px;
     width: 550px;
@@ -76,7 +76,7 @@ input{
 }
 
 .changeBtn{
-    background-image: url(/img/top.png);
+    background-image: url("../img/top.png");
     background-repeat: no-repeat;
     color:black;
     width: 120px;
@@ -94,7 +94,7 @@ input{
 }
 
 #main-house {
-    background-image: url(/img/main-house.png);
+    background-image: url(../img/main-house.png);
     background-repeat: no-repeat;
     background-size: 500px;
     color:black;
@@ -103,12 +103,11 @@ input{
     position: absolute;
     top: 264px;
     overflow: hidden;
-
-
 }
 
+
 #login-form{
-    background-image: url(/img/loginform.png);
+    background-image: url(../img/loginform.png);
     background-repeat: no-repeat;
     width:290px;
     height: 100px;
@@ -134,7 +133,7 @@ input{
 
 
 #todo{
-    background-image: url(/img/todolist.png);
+    background-image: url(../img/todolist.png);
     background-repeat: no-repeat;
     position: absolute;
     text-align: center;
@@ -164,7 +163,7 @@ input{
 }
 
 .quote{
-    background-image: url("/img/quote.png");
+    background-image: url(../img/quote.png);
     background-repeat: no-repeat;
     background-size: 900px;
     width: 950px;
