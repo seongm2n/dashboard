@@ -140,7 +140,7 @@ input{
     width: 300px;
     height: 430px;
     top: 10px;
-    left: 600px;
+    left: 550px;
     background-size: 300px ;
 
 }
@@ -169,7 +169,7 @@ input{
     width: 950px;
     height: 249px;
     position: absolute;
-    top: 784px;
+    top: 720px;
     left: 500px;
     display: flex;
     flex-direction: column;
@@ -196,7 +196,7 @@ input{
 .calendar{
     position: absolute;
     top: 60px;
-    left: 950px;
+    left: 880px;
     max-width: 300px;
     padding: 15px 15px;
     border-radius: 30px;
