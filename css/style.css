@@ -13,14 +13,11 @@ body{
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
-    margin: 0 auto;
-    min-height: 100%;
     margin: auto;
+    padding: 0;
     position: relative;
     animation: fadeIn .5s linear;
     overflow: hidden;
-    
-
 }
 
 .hidden{
@@ -71,8 +68,8 @@ input{
     text-align: center;
     line-height: 179px;
     font-family: 'East Sea Dokdo', cursive;
-    
-    
+
+
 }
 .clock h2{
     margin-right: 4px;
@@ -143,7 +140,7 @@ input{
     text-align: center;
     line-height: 80px;
     font-family: 'East Sea Dokdo', cursive;
-    
+
 }
 #greeting {
     background-image: url(/img/loginform.png);
@@ -195,6 +192,7 @@ input{
     position: absolute;
     top: 100px;
     left: 805px;
+    width:100%;
     max-width: 300px;
     padding: 15px 15px;
     border-radius: 30px;
@@ -219,7 +217,7 @@ input{
     cursor: pointer;
     color: #999;
 }
-    
+
 .calendar .month h1{
     font-size: 38px;
     text-transform: uppercase;
@@ -300,7 +298,7 @@ opacity: 0.5;
     position: absolute;
     margin-top: 30px;
     margin-left: 90px;
-    
+
 }
 
 .google{
@@ -367,7 +365,7 @@ opacity: 0.5;
 .quote{
     background-image: url(../img/quote.png);
     background-repeat: no-repeat;
-    background-size: 900px;
+    background-size: 800px;
     width: 950px;
     height: 249px;
     position: absolute;
@@ -377,13 +375,14 @@ opacity: 0.5;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 22px;
+    font-size: 23px;
     font-family: 'East Sea Dokdo', cursive;
 }
-
-.quote span {
-    margin-bottom:30px ;
+.author{
+    margin-bottom: 60px;
 }
+
+
 
 /* 로그아웃 */
 #exit {
@@ -399,6 +398,7 @@ opacity: 0.5;
     transform: scale(1.2);
     transition: opacity 300ms ease-in;
 }
+
 
 @media screen and (max-width: 768px){
     body{
@@ -459,14 +459,14 @@ opacity: 0.5;
         text-align: center;
         line-height: 130px;
         }
-    
+
     #weather{
     background-size: 400px;
     width: 500px;
     height: 240px;
     position: absolute;
     top: 60px;
-    right:0.1px;
+    left:600px;
     font-size: 30px;
     opacity: 80%;
     }
@@ -480,7 +480,7 @@ opacity: 0.5;
         font-weight: bold;
         line-height: 100px;
     }
-    
+
     .changeBtn:hover{
         transform: scale(1.3);
     }
@@ -510,23 +510,24 @@ opacity: 0.5;
         right: 20px;
         }
 
-    .calendar{
-        top:70px;
-        left: 650px;
-        max-width: 200px;
-        padding: 10px 10px;
-    }
-    .calendar .month h1{
-        font-size: 29px;
-    }
-    .calendar .days div{
-        font-size: 13px;
-    }
-    #bookmark {
-        max-width:250px;
-        left: 800px;
-        top: 70px;
-    }
+        .calendar{
+            top:70px;
+            left: 640px;
+            max-width: 200px;
+            padding: 10px 10px;
+        }
+        .calendar .month h1{
+            font-size: 29px;
+        }
+        .calendar .days div{
+            font-size: 13px;
+        }
+        #bookmark {
+            max-width:250px;
+            left: 867px;
+            top: 70px;
+
+        }
     .bookmarkText {
         font-size: 35px;
         margin-top: 30px;
