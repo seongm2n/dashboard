@@ -23,19 +23,21 @@
     <title>My chrome web site</title>
 </head>
 <body>
-    <section id="top-roof">
-        <button class="changeBtn">ChangeImg
-            <!-- <img src="./img/top.png" alt=""> -->
-        </button>
-        <div class="clock">
-        </div>
-        
-        <button id="exit">
-            <img src="./img/exitIcon.png" alt="">
-        </button>
-
-    </section>
-    <section id="main-house">
+    <section class="my__chrome">
+        <header class="chrome__header">
+            <button class="changeBtn">ChangeImg
+                <!-- <img src="./img/top.png" alt=""> -->
+            </button>
+            <div class="clock"></div>
+            <button id="exit">
+                <img src="./img/exitIcon.png" alt="">
+            </button>
+            <div id="weather">
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+        <section class="main__house">
         <form id="login-form" class="hidden">
             <input required
             maxlength="15" 
@@ -45,7 +47,9 @@
             <!-- <input type="submit" value="Log In" /> -->
         </form>
         <h1 id="greeting" class="hidden"></h1>
-        <div id="todo">
+    </section>
+    <section class="main__outer">
+        <div class="todo">
             <div class="todo-label">To do</div>
             <form id="todo-form">
                 <input class="todo_input" type="text" placeholder="Write a To Do" required />
@@ -110,13 +114,9 @@
             </ul>
         </div>
     </section>
-    <div id="weather">
-        <span></span>
-        <span></span>
-    </div>
-    <div id="grass"></div>
-    <section id="bottom-house">
-        <div class="quote"">
+    </section>
+    <section class="bottom__house">
+        <div class="quote">
                 <span class="writing"></span>
                 <span class="author"></span>
         </div>
