@@ -60,7 +60,7 @@ input{
     font-family: 'East Sea Dokdo', cursive;
     line-height: 130px;
     padding-left: 20px;
-    transform: translate(69%,264%);
+    transform: translate(69%,242%);
 }
 
 /* 배경 바꾸기 */
@@ -77,7 +77,7 @@ input{
     font-size: 17px;
     font-weight: bold;
     line-height: 100px;
-    transform: translate(179%, 220%);
+    transform: translate(179%, 200%);
     transition: transform 300ms ease-in;
 
 }
