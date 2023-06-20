@@ -1,399 +1,415 @@
 /* Google Fonts */
 @font-face {
-    font-family: 'East Sea Dokdo', cursive;
-    src: url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
-    /* font-weight: normal;
+	font-family: 'East Sea Dokdo', cursive;
+	src: url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+	/* font-weight: normal;
     font-style: normal; */
 }
 
-body{
-    background-color: aliceblue;
+body {
+	background-color: aliceblue;
 }
 
-ul{
-    list-style: none;
+ul {
+	list-style: none;
 }
 
-.hidden{
-    display: none;
+.hidden {
+	display: none;
 }
 
-
-button{
-    background: none;
-    border: 0;
-    outline: 0;
-    cursor: pointer;
+button {
+	background: none;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
 }
 
-input{
-    background: none;
-    border: 0;
-    outline: 0;
-    cursor: pointer;
-    font-size: 16px;
+input {
+	background: none;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	font-size: 16px;
 }
 
-.my__chrome{
-    display: flex;
-    flex-direction: column;
-    background: url(../img/main.jpg) center/cover;
-    background-repeat: no-repeat;
-    width: 1300px;
-    height: 800px;
-    margin: auto;
-    margin-top: 60px;
-    padding: 0;
-    border-radius: 20px;
+.my__chrome {
+	display: flex;
+	flex-direction: column;
+	background: url(../img/main.jpg) center/cover;
+	background-repeat: no-repeat;
+	width: 1300px;
+	height: 800px;
+	margin: auto;
+	margin-top: 60px;
+	padding: 0;
+	border-radius: 20px;
 }
 
 /* 시계 */
-.clock{
-    background-image: url(../img/clockroof.png);
-    background-repeat: no-repeat;
-    background-size: 180px;
-    width: 160px;
-    height: 100px;
-    font-size: 20px;
-    font-weight: bold;
-    position: absolute;
-    font-family: 'East Sea Dokdo', cursive;
-    line-height: 130px;
-    padding-left: 20px;
-    transform: translate(69%,242%);
+.clock {
+	background-image: url(../img/clockroof.png);
+	background-repeat: no-repeat;
+	background-size: 180px;
+	width: 160px;
+	height: 100px;
+	font-size: 20px;
+	font-weight: bold;
+	position: absolute;
+	font-family: 'East Sea Dokdo', cursive;
+	line-height: 130px;
+	padding-left: 22px;
+	transform: translate(69%, 242%);
+	cursor: pointer;
 }
 
 /* 배경 바꾸기 */
 
-.changeBtn{
-    background-image: url("../img/top.png");
-    background-repeat: no-repeat;
-    background-size: 100px;
-    font-family: 'East Sea Dokdo', cursive;
-    color:black;
-    width: 90px;
-    height: 100px;
-    position: absolute;
-    font-size: 17px;
-    font-weight: bold;
-    line-height: 100px;
-    transform: translate(179%, 200%);
-    transition: transform 300ms ease-in;
-
+.changeBtn {
+	background-image: url('../img/top.png');
+	background-repeat: no-repeat;
+	background-size: 100px;
+	font-family: 'East Sea Dokdo', cursive;
+	color: black;
+	width: 90px;
+	height: 100px;
+	position: absolute;
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 100px;
+	transform: translate(179%, 200%);
+	transition: transform 300ms ease-in;
 }
-
 
 /* 날씨와 위치*/
 
-#weather{
-    background-image: url(../img/weather.png);
-    background-repeat: no-repeat ;
-    width: 420px;
-    height: 170px;
-    position: absolute;
-    font-size: 29px;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    transform: translate(160%,40%);
-    font-family: 'East Sea Dokdo', cursive;
+#weather {
+	background-image: url(../img/weather.png);
+	background-repeat: no-repeat;
+	width: 420px;
+	height: 170px;
+	position: absolute;
+	font-size: 29px;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	transform: translate(160%, 40%);
+	font-family: 'East Sea Dokdo', cursive;
 }
-
 
 /* 로그인폼 , 할일목록, 달력, 북마크*/
 .main__house {
-    background-color: aqua;
-    background: url(../img/main-house.png);
-    background-size: 360px;
-    background-repeat: no-repeat;
-    width: 374px;
-    height: 800px;
-    transform: translateY(65.4%);
-    border-radius: 20px;
-
+	background-color: aqua;
+	background: url(../img/main-house.png);
+	background-size: 360px;
+	background-repeat: no-repeat;
+	width: 374px;
+	height: 800px;
+	transform: translateY(65.4%);
+	border-radius: 20px;
 }
 
 /* 로그인폼 */
-#login-form input{
-    margin-top: 27px;
-    text-align: center;
-    padding: 0;
+#login-form input {
+	margin-top: 27px;
+	padding: 0;
 }
-#login-form{
-    background-image: url(../img/loginform.png);
-    background-repeat: no-repeat;
-    background-size: 210px;
-    margin: auto;
-    margin-top: 185px;
-    margin-left: 70px;
-    width: 230px;
-    height: 90px;
-    text-align: center;
-    font-family: 'East Sea Dokdo', cursive;
-
+#login-form {
+	background-image: url(../img/loginform.png);
+	background-repeat: no-repeat;
+	background-size: 210px;
+	margin: auto;
+	margin-top: 185px;
+	margin-left: 70px;
+	width: 230px;
+	height: 90px;
+	padding-left: 2px;
+	text-align: center;
+	font-family: 'East Sea Dokdo', cursive;
 }
 #greeting {
-    background-image: url(/img/loginform.png);
-    background-repeat: no-repeat;
-    background-size: 210px;
-    width: 230px;
-    height: 70px;
-    text-align: center;
-    margin: auto;
-    margin-top: 189px;
-    margin-left: 70px;
-    padding-left:2px ;
-    padding-top:20px;
-    font-size: 29px;
-    font-family: 'East Sea Dokdo', cursive;
+	background-image: url(/img/loginform.png);
+	background-repeat: no-repeat;
+	background-size: 210px;
+	width: 210px;
+	height: 90px;
+	text-align: center;
+	margin: auto;
+	margin-top: 185px;
+	margin-left: 70px;
+	padding-top: 21px;
+	font-size: 29px;
+	font-family: 'East Sea Dokdo', cursive;
 }
 
-.main__outer{
-    display: flex;
-    justify-content: space-between;
-    width: 900px;
-    transform: translate(40%,-60%);
+.main__outer {
+	display: flex;
+	justify-content: space-between;
+	width: 900px;
+	transform: translate(40%, -60%);
 }
-
 
 /* 할일목록 */
-.todo{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background: url(../img/todolist.png);
-    background-repeat: no-repeat;
-    width: 200px;
-    height: 290px;
-    margin-left: 10px;
-    background-size: 200px;
+.todo {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	background: url(../img/todolist.png);
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 290px;
+	margin-left: 10px;
+	background-size: 200px;
 }
 
-.todo-label{
-    font-size: 30px;
-    font-weight: bold;
-    margin-top: 40px;
-    font-family: 'East Sea Dokdo', cursive;
+.todo-label {
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 40px;
+	font-family: 'East Sea Dokdo', cursive;
 }
 
-#todo-list{
-    text-align: left;
+#todo-list {
+	text-align: left;
 }
 
-.todo_input{
-    margin: auto;
-    font-size: 15px;
-    text-align: center;
+.todo_input {
+	margin: auto;
+	font-size: 15px;
+	text-align: center;
 }
 
 /* 캘린더 */
-.calendar{
-    width:100%;
-    max-width: 250px;
-    padding: 15px 15px;
-    border-radius: 30px;
-    background-color: rgb(255, 200, 97);
-    box-shadow: 0 1px 3px #8889 ;
-    font-family: 'East Sea Dokdo', cursive;
+.calendar {
+	width: 100%;
+	max-width: 250px;
+	padding: 15px 15px;
+	border-radius: 30px;
+	background-color: rgb(255, 200, 97);
+	box-shadow: 0 1px 3px #8889;
+	font-family: 'East Sea Dokdo', cursive;
 }
-.calendar .month{
-    width: 100%;
-    height: 100px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-.calendar .month i{
-    font-size: 19px;
-    cursor: pointer;
-    color: #999;
+.calendar .month {
+	width: 100%;
+	height: 100px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+	text-align: center;
 }
 
-.calendar .month h1{
-    font-size: 38px;
-    text-transform: uppercase;
-    initial-letter: 2px;
-    margin-top: 5px;
-    color: black;
+.calendar .month i {
+	font-size: 19px;
+	cursor: pointer;
+	color: #999;
 }
 
-.calendar .month p{
-    font-size: 22px;
-    color: rgb(227, 48, 108);
-}
-.calendar .weekdays{
-    width: 100%;
-    height: 50px;
-    padding: 0 4px;
-    display: flex;
-    align-items: center;
+.calendar .month h1 {
+	font-size: 38px;
+	text-transform: uppercase;
+	initial-letter: 2px;
+	margin-top: 5px;
+	color: black;
 }
 
-.calendar .weekdays div{
-    font-size: 25px;
-    color: rgb(252, 248, 248);
-    width: calc(100%/7);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.calendar .month p {
+	font-size: 22px;
+	color: rgb(227, 48, 108);
 }
-.calendar .weekdays div:first-child{
-    color: tomato;
-}
-
-.calendar .days{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+.calendar .weekdays {
+	width: 100%;
+	height: 50px;
+	padding: 0 4px;
+	display: flex;
+	align-items: center;
 }
 
-.calendar .days div{
-    font-size: 20px;
-    width: calc(100%/7);
-    height: 25px;
-    display: flex;
-    justify-content:  center;
-    align-items: center;
-    cursor: pointer;
-    transition: 0.2s;
+.calendar .weekdays div {
+	font-size: 25px;
+	color: rgb(252, 248, 248);
+	width: calc(100% / 7);
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-.calendar .days div:hover{
-opacity: 0.5;
+.calendar .weekdays div:first-child {
+	color: tomato;
+}
+
+.calendar .days {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.calendar .days div {
+	font-size: 20px;
+	width: calc(100% / 7);
+	height: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	transition: 0.2s;
+}
+.calendar .days div:hover {
+	opacity: 0.5;
 }
 
 .calendar .prev-date,
-.calendar .next-date{
-    opacity: 0.5;
+.calendar .next-date {
+	opacity: 0.5;
 }
 
-.calendar .today{
-    background-color: palevioletred;
-    border-radius: 8px;
-    color: #fff;
+.calendar .today {
+	background-color: palevioletred;
+	border-radius: 8px;
+	color: #fff;
 }
 
 #bookmark {
-    display: flex;
-    background-color: rgb(207, 237, 237);
-    border-radius: 20%;
+	display: flex;
+	background-color: rgb(207, 237, 237);
+	border-radius: 20%;
 }
 .bookmarkText {
-    font-family: 'East Sea Dokdo', cursive;
-    font-size: 40px;
-    font-weight: bold;
-    position: absolute;
-    margin-top: 20px;
-    margin-left: 90px;
-
+	font-family: 'East Sea Dokdo', cursive;
+	font-size: 40px;
+	font-weight: bold;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 90px;
 }
 
-.bookmark_icons{
-    width: 250px;
-    margin-right: 50px;
-    margin-top: 100px;
-    display: grid;
-    grid-template-columns: repeat(3,100px);
-    grid-template-rows: repeat(2,100px);
+.bookmark_icons {
+	width: 250px;
+	margin-right: 50px;
+	margin-top: 100px;
+	display: grid;
+	grid-template-columns: repeat(3, 100px);
+	grid-template-rows: repeat(2, 100px);
 }
 
-
-.google:hover{
-    transform: scale(1.2);
+.google:hover {
+	transform: scale(1.2);
 }
 
-
-
-.naver:hover{
-    transform: scale(1.2);
+.naver:hover {
+	transform: scale(1.2);
 }
 
-
-
-.github:hover{
-    transform: scale(1.2);
+.github:hover {
+	transform: scale(1.2);
 }
 
-
-
-.notion:hover{
-    transform: scale(1.2);
+.notion:hover {
+	transform: scale(1.2);
 }
 
-
-.normad:hover{
-    transform: scale(1.2);
+.normad:hover {
+	transform: scale(1.2);
 }
 
-.youtube:hover{
-    transform: scale(1.2);
+.youtube:hover {
+	transform: scale(1.2);
 }
 
 /* .bottom__house{
     display: flex;
 } */
 /* 명언 */
-.quote{
-    background-image: url(../img/quote.png);
-    background-repeat: no-repeat;
-    width: 950px;
-    height: 249px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 23px;
-    font-family: 'East Sea Dokdo', cursive;
-    transform: translate(60%,-65%);
+.quote {
+	background-image: url(../img/quote.png);
+	background-repeat: no-repeat;
+	width: 950px;
+	height: 249px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 23px;
+	font-family: 'East Sea Dokdo', cursive;
+	transform: translate(60%, -65%);
 }
-.author{
-    margin-bottom: 60px;
+.author {
+	margin-bottom: 60px;
 }
-
-
 
 /* 로그아웃 */
 #exit {
-    position: fixed;
-    top: 10%;
-    right: 20%;
-    border: none;
-    background: none;
-    cursor: pointer;
-    transition: transform 300ms ease-in;
+	position: fixed;
+	top: 10%;
+	right: 20%;
+	border: none;
+	background: none;
+	cursor: pointer;
+	transition: transform 300ms ease-in;
 }
 
-#exit:hover{
-    transform: scale(1.2);
+#exit:hover {
+	transform: scale(1.2);
+}
+/* exit modal */
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+/* Modal content */
+.modal-content {
+	background-color: #fefefe;
+	border-radius: 20px;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 300px;
+	text-align: center;
 }
 
+/* Close button */
+.close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
 
-@media screen and (max-width: 768px){
-    
-    .quote{
-        background-size: 600px;
-        top: 600px;
-        left: 400px;
-        width: 600px;
-        font-size: 20px;
-        line-height: 20px;
-    }
-    .writing{
-        margin-bottom: 0px;
-    }
-    .author{
-        margin-top:1px ;
-        margin-bottom: 110px;
-    }
-    #exit {
-        top: 3%;
-        right: 20px;
-        }
+.close:hover,
+.close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
 
+@media screen and (max-width: 768px) {
+	.quote {
+		background-size: 600px;
+		top: 600px;
+		left: 400px;
+		width: 600px;
+		font-size: 20px;
+		line-height: 20px;
+	}
+	.writing {
+		margin-bottom: 0px;
+	}
+	.author {
+		margin-top: 1px;
+		margin-bottom: 110px;
+	}
+	#exit {
+		top: 3%;
+		right: 20px;
+	}
 }
