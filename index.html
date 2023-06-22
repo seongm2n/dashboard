@@ -10,12 +10,11 @@
     <script src="https://kit.fontawesome.com/fc4b99b6c9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link rel="stylesheet" href="css/style.css">
-
     <script src="js/background.js" defer></script>
     <script src="js/weather.js" defer></script>
     <script src="js/clock.js" defer></script>
     <script src="js/greeting.js" defer></script>
-    <script src="js/quotes.js" defer></script>
+    
     <script src="js/todo.js" defer></script>
     <script src="js/music.js" defer></script>
     <script src="js/exit.js" defer></script>
@@ -25,8 +24,8 @@
 <body>
     <section class="my__chrome">
         <header class="chrome__header">
-            <button class="changeBtn">ChangeImg
-                <!-- <img src="./img/top.png" alt=""> -->
+            <button class="changeBtn">
+                <span>ChangeImg</span>
             </button>
             <div class="clock"></div>
             <button id="exit">
@@ -47,7 +46,7 @@
             <!-- <input type="submit" value="Log In" /> -->
         </form>
         <h1 id="greeting" class="hidden"></h1>
-    </section>
+        </section>
     <section class="main__outer">
         <div class="todo">
             <div class="todo-label">To do</div>
@@ -113,15 +112,8 @@
                 </li>
             </ul>
         </div>
+        <div class="music"></div>
     </section>
-    </section>
-    <section class="bottom__house">
-        <div class="quote">
-                <span class="writing"></span>
-                <span class="author"></span>
-        </div>
-        <div class="music">
-        </div>
     </section>
 </body>
 </html>
