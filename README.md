@@ -1,57 +1,56 @@
-# myChromeWeb
+# Project
 
-<h2>💡프로젝트 소개</h2>
-<img width="1600" alt="my dashboard" src="https://github.com/seongm2n/dashboard/assets/62044613/7e1dd30d-7724-4de6-964f-e330edb11678">
+> 나만의 dash보드이며 음악(음악 플레이리스트 추가할 예정)을 들으면서 실시간 날짜와 날씨를 확인할 수 있고, Todolist에 할일을 적어서 메모를 간단하게 할 수 있다.
 
-✍🏻프로젝트 개요 및 동기 
+<img width="1600" alt="my dashboard" src="https://github.com/seongm2n/dashboard/assets/62044613/7e1dd30d-7724-4de6-964f-e33
+0edb11678">
 
-• 노마드 코더 바닐라 자바스크립트 챌린지에 도전
+---
 
-• 온라인 학습으로 바닐라 자바스크립트 공부
+### Stacks
 
-• 코딩챌린지 기간에 매일 지시사항에 맞게 구현하는 과제를 수행 -> 과제 제출및 시험에 통과하지 못한다면 바로 탈락
+<img src="https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=JavaScript&color=F7DF1E">
+<img src="https://img.shields.io/badge/Code-HTML5-informational?style=flat&logo=HTML5&color=E34F26">
+<img src="https://img.shields.io/badge/Style-CSS3-informational?style=flat&logo=CSS3&color=1572B6">
 
-• 마지막 3일동안 바닐라 자바스크립트를 졸업하는 작품 만들기
+<br>
+<img src="https://img.shields.io/badge/Tool-Visual Studio Code-informational?style=flat&logo=visualstudiocode&color=007ACC">
 
+<br>
 
-🎀 기술 스택 🎀 
+### Planning
 
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/> 
+- 컨셉 - 집(House)
+- 배경 - changeImg 버튼 누를 시 랜덤으로 배경화면이 바뀜
+- what is your name?에 이름을 적고 Enter하면 로그인되고  
+  로그인 정보는 로컬스토리지에 저장
+- 로그아웃 버튼을 누르면 to-do-list에 적힌 내용과 로그인 정보 삭제  
+  → 모달창으로 alert 띄움
+- 북마크 설정 (크롬, 네이버, 깃허브, 노션, 노마드코더사이트, 유튜브)
+- 실시간 캘린더 설정
+- 실시간 시계 설정
+- 실시간 날씨 설정 → Weather api 사용
+- 음악 플레이어 설정  
+  (사운드클라우드 api 사용할 예정이었으나 사운드클라우드에서 서비스 중단) → 유튜브 api 사용해서 플레이리스트 생성할 예정
 
-🛠 도구 🛠 
-<img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/>
+### Trouble Shooting
 
-😎구현기능
+- 집을 포토샵으로 그려서 이미지로 가져왔던 거라 위치 세팅이 어려웠음  
+  → 일일이 위치를 확인해서 설정해줬음
+- 실시간 시계 설정할 때 0으로 시작하지 않는 것 수정  
+  → 해결 : padStart를 0으로 지정
+  ```
+    const hours = String(date.getHours()).padStart(2, "0");
+    const minutes = String(date.getMinutes()).padStart(2,"0");
+    const seconds = String(date.getSeconds()).padStart(2,"0");
+  ```
+  
+### To improve
 
-• 나의 크롬웹의 컨셉은 집(House) 
+- 반응형으로 만들어서 모바일 버전으로 볼 수 있게 수정하기
+- 배경이미지 렌더링 속도 개선하기
+- 음악 플레이어 추가하기
 
-• 집 뒤로 보이는 배경은 버튼 하나로 바뀔 수 있게 구현
+### Deploy
 
-• what is your name?에 이름을 적고 로그인
-
-• to-do list에 작성 및 삭제 가능
-
-• 비행기를 클릭하면 to-do list와 로그인 정보 삭제
-
-• 북마크 설정
-
-• 실시간 캘린더 설정 
-
-• 실시간 시계 설정
-
-• 실시간 날씨 설정
-
-• 새로고침 할 때마다 명언 바꾸기
-
-• 집, 비행기, 해와구름, 북마크 -> 포토샵으로 전부 그렸음
-
-🫠 배운 점 🫠
-
-순수 JavaScript만으로도 CSS와 HTML을 구현 할 수 있다는 것을 배움
-
-🫠 아쉬운 점 🫠
-
-브라우저마다 크기가 달라 화면이 다르게 보이는게 아쉬웠고 아직 반응형으로 웹을 만드는게 미숙하다는 것을 느꼈음
-
-
-
+[My dashboard](https://tyommin-dashboard.netlify.app/)
