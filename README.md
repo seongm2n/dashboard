@@ -2,7 +2,7 @@
 
 > 나만의 dash보드이며 음악(음악 플레이리스트 추가할 예정)을 들으면서 실시간 날짜와 날씨를 확인할 수 있고, Todolist에 할일을 적어서 메모를 간단하게 할 수 있다.
 
-<img width="992" alt="스크린샷 2023-07-19 13 09 51" src="https://github.com/seongm2n/dashboard/assets/62044613/4c5905df-f5d5-4431-ba8f-3aa7eb3be1a9">
+![mydashboard](https://github.com/seongm2n/dashboard/assets/62044613/3b9210ed-60f7-4226-9989-a5cea677a762)
 
 ---
 
