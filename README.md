@@ -1,7 +1,7 @@
 # myChromeWeb
 
 <h2>💡프로젝트 소개</h2>
-<img width="1680" alt="스크린샷_2023-07-19_13 09 51-removebg-preview" src="https://github.com/seongm2n/dashboard/assets/62044613/7e1dd30d-7724-4de6-964f-e330edb11678">
+<img width="1600" alt="my dashboard" src="https://github.com/seongm2n/dashboard/assets/62044613/7e1dd30d-7724-4de6-964f-e330edb11678">
 
 ✍🏻프로젝트 개요 및 동기 
 
