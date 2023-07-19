@@ -341,7 +341,7 @@ input {
 
 /* 로그아웃 */
 #exit {
-	position: fixed;
+	position: absolute;
 	top: 10%;
 	right: 20%;
 	border: none;
