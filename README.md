@@ -2,8 +2,10 @@
 
 > 나만의 dash보드이며 음악(음악 플레이리스트 추가할 예정)을 들으면서 실시간 날짜와 날씨를 확인할 수 있고, Todolist에 할일을 적어서 메모를 간단하게 할 수 있다.
 
-<img width="1600" alt="my dashboard" src="https://github.com/seongm2n/dashboard/assets/62044613/7e1dd30d-7724-4de6-964f-e33
+<div align="center">
+<img  width="310" alt="my dashboard" src="https://github.com/seongm2n/dashboard/assets/62044613/7e1dd30d-7724-4de6-964f-e33
 0edb11678">
+</div>
 
 ---
 
@@ -44,7 +46,7 @@
     const minutes = String(date.getMinutes()).padStart(2,"0");
     const seconds = String(date.getSeconds()).padStart(2,"0");
   ```
-  
+
 ### To improve
 
 - 반응형으로 만들어서 모바일 버전으로 볼 수 있게 수정하기
